@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.remonilo.throwspawn.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"SpawnEggItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
