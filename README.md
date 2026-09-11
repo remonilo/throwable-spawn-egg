@@ -5,11 +5,21 @@
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-required-blue)](https://fabricmc.net/)
 
+<img
+  align="right"
+  width="200"
+  height="200"
+  src="https://raw.githubusercontent.com/remonilo/throwable-spawn-egg/main/src/main/resources/assets/throwspawn/icon.png"
+  alt="Steve throwing creeper egg into distance. Minecraft world on behind"
+/>
+
 **A Fabric mod for Minecraft 1.21.1 that lets you throw spawn eggs instead of only using them on blocks. Works with vanilla spawn eggs and modded ones too.**
+
+<br clear="right">
 
 ## Features
 
-Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Works with modded spawn eggs, not just vanilla. Knocks back entities on a direct hit, same as a regular thrown egg (no damage)
+Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Works with modded spawn eggs, not just vanilla. Knocks back entities on a direct hit, same as a regular thrown egg (no damage).
 
 ## Requirements
 
@@ -36,4 +46,3 @@ The built jar will be in `build/libs`.
 ## License
 
 See the LICENSE file.
-
