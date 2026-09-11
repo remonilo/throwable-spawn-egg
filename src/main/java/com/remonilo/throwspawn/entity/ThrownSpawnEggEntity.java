@@ -8,10 +8,10 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.util.math.Direction;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
-import net.minecraft.particle.ItemStackParticleEffect;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.Vec3d;
@@ -48,17 +48,22 @@ public class ThrownSpawnEggEntity extends ThrownItemEntity {
             Vec3d spawnPos;
 
             if (hitResult instanceof BlockHitResult blockHitResult) {
-                Vec3d normal = Vec3d.of(blockHitResult.getSide().getVector());
-                spawnPos = hitResult.getPos().add(normal.multiply(0.5));
+                Direction side = blockHitResult.getSide();
+                if (side == Direction.UP) {
+                    spawnPos = hitResult.getPos();
+                } else {
+                    Vec3d normal = Vec3d.of(side.getVector());
+                    spawnPos = hitResult.getPos().add(normal.multiply(0.5));
+                }
             } else {
                 spawnPos = hitResult.getPos();
             }
 
             if (this.getWorld() instanceof ServerWorld serverWorld) {
                 serverWorld.spawnParticles(
-                        new ItemStackParticleEffect(ParticleTypes.ITEM, this.getStack()),
+                        ParticleTypes.POOF,
                         spawnPos.x, spawnPos.y, spawnPos.z,
-                        8, 0.1, 0.1, 0.1, 0.05
+                        8, 0.2, 0.2, 0.2, 0.02
                 );
             }
 

@@ -3,7 +3,7 @@
 	"id": "throwspawn",
 	"version": "${version}",
 	"name": "Throwable Spawn Eggs",
-	"description": "Ever wondered why spawn eggs in Minecraft doesn't behave the same way as plain eggs? this mod exactly fixes that gap!",
+	"description": "Throw spawn eggs instead of only using them on blocks. Works with vanilla and most modded spawn eggs.",
 	"authors": [
 		"remonilo"
 	],
