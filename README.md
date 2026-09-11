@@ -1,15 +1,15 @@
 # Throwable Spawn Eggs
 
-A Fabric mod for Minecraft 1.21.1 that lets you throw spawn eggs instead of only using them on blocks. Works with vanilla spawn eggs and modded ones too.
+[![License](https://img.shields.io/github/license/remonilo/throwable-spawn-egg)](https://github.com/remonilo/throwable-spawn-egg/blob/main/LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/remonilo/throwable-spawn-egg)](https://github.com/remonilo/throwable-spawn-egg/releases/latest)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-brightgreen)](https://www.minecraft.net/)
+[![Fabric](https://img.shields.io/badge/Fabric-required-blue)](https://fabricmc.net/)
+
+**A Fabric mod for Minecraft 1.21.1 that lets you throw spawn eggs instead of only using them on blocks. Works with vanilla spawn eggs and modded ones too.**
 
 ## Features
 
-- Throw any spawn egg to spawn its mob on impact
-- Works with modded spawn eggs, not just vanilla
-- 0.75 second cooldown between throws
-- Egg breaks into particles on impact
-- Knocks back entities on a direct hit, same as a regular thrown egg (no damage)
-- Creative mode does not consume eggs
+Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Works with modded spawn eggs, not just vanilla. Knocks back entities on a direct hit, same as a regular thrown egg (no damage)
 
 ## Requirements
 
@@ -36,3 +36,4 @@ The built jar will be in `build/libs`.
 ## License
 
 See the LICENSE file.
+
