@@ -8,18 +8,30 @@
 <img
   align="right"
   width="200"
-  height="200"
   src="https://raw.githubusercontent.com/remonilo/throwable-spawn-egg/main/src/main/resources/assets/throwspawn/icon.png"
   alt="Steve throwing creeper egg into distance. Minecraft world on behind"
 />
 
-**A Fabric mod for Minecraft 1.21.1 that lets you throw spawn eggs instead of only using them on blocks. Works with vanilla spawn eggs and modded ones too.**
+A Fabric mod that lets you throw spawn eggs instead of only using them on blocks. Works with vanilla spawn eggs and modded ones too.
 
 <br clear="right">
 
 ## Features
 
-Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Works with modded spawn eggs, not just vanilla. Knocks back entities on a direct hit, same as a regular thrown egg (no damage).
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <ul>
+        <li><strong>Throwable Spawn Eggs:</strong> Throw any spawn egg to spawn its entity upon impact (with a short 0.75s delay).</li>
+        <li><strong>Modded Support:</strong> Works seamlessly out of the box with modded spawn eggs, not just vanilla ones.</li>
+        <li><strong>Knockback Dynamics:</strong> Knocks back entities on direct hits identical to regular vanilla thrown eggs (deals zero damage).</li>
+      </ul>
+    </td>
+    <td width="45%" align="center" valign="top">
+      <img src="./readme_ast/banner.gif" alt="Throwable Spawn Eggs Demo" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## Requirements
 
@@ -35,14 +47,7 @@ Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Work
 
 ## Building from source
 
-```
-git clone https://github.com/remonilo/throwable-spawn-egg.git
+```bash
+git clone [https://github.com/remonilo/throwable-spawn-egg.git](https://github.com/remonilo/throwable-spawn-egg.git)
 cd throwable-spawn-egg
 ./gradlew build
-```
-
-The built jar will be in `build/libs`.
-
-## License
-
-See the LICENSE file.
