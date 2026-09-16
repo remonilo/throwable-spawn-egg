@@ -18,20 +18,15 @@ A Fabric mod that lets you throw spawn eggs instead of only using them on blocks
 
 ## Features
 
-<table>
-  <tr>
-    <td width="55%" valign="top">
-      <ul>
-        <li><strong>Throwable Spawn Eggs:</strong> Throw any spawn egg to spawn its entity upon impact (with a short 0.75s delay).</li>
-        <li><strong>Modded Support:</strong> Works seamlessly out of the box with modded spawn eggs, not just vanilla ones.</li>
-        <li><strong>Knockback Dynamics:</strong> Knocks back entities on direct hits identical to regular vanilla thrown eggs (deals zero damage).</li>
-      </ul>
-    </td>
-    <td width="45%" align="center" valign="top">
-      <img src="./readme_ast/banner.gif" alt="Throwable Spawn Eggs Demo" width="100%">
-    </td>
-  </tr>
-</table>
+<img
+  align="right"
+  width="400"
+  src="./readme_ast/banner.gif"
+  alt="Throwing creeper egg into ground. Minecraft flat on behind"
+/>
+
+Allow throwing any spawn egg to spawn its mob on impact (with 0.75s delay). Works with most modded spawn eggs, not just vanilla. Knocks back entities on a direct hit, same as a regular thrown egg (no damage).
+<br clear="right">
 
 ## Requirements
 
